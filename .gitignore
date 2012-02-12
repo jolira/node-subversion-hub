@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+.nide
+.svn
+*.class
+*.gz
+*.jar
+*.tar
+*~
+*.log

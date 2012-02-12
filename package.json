@@ -1,0 +1,25 @@
+{
+  "name": "subversion-hub",
+  "version": "0.1.0",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "server",
+  "description": "aggregate multiple svn repos into on",
+  "author": "Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)",
+  "licenses": [{
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  }],
+
+  "dependencies": {},
+
+  "devDependencies": {
+    "horaa": "*",
+    "vows": "*"
+  },
+  "repository": {
+    "url": "https://github.com/jolira/node-subversion-hub.git",
+    "type": "git"
+  }
+}
