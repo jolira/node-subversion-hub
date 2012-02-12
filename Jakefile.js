@@ -36,7 +36,7 @@ function forEachFile(root, cbFile, cbDone) {
 }
 
 desc('The default task. Runs tests.');
-task('default', ['test'], function() {
+task('default', ['tests'], function() {
 })
 
 desc('Run tests');
