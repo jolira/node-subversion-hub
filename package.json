@@ -16,7 +16,9 @@
 
   "devDependencies": {
     "horaa": "*",
-    "vows": "*"
+    "vows": "*",
+    "jake": "*",
+    "uglify-js": "*"
   },
   "repository": {
     "url": "https://github.com/jolira/node-subversion-hub.git",
