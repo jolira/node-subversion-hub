@@ -1,3 +1,5 @@
+require('./lib/http-patch');
+
 var config = require("./lib/config");
 var server = require("./lib/server");
 var path = require("path");
@@ -23,5 +25,7 @@ config(candidates, function(err, cfg){
     return console.error(err.stack || err);
   }
 
-  server(cfg);
+  return server(cfg, function(svr) {
+    // console.log("started");
+  });
 });
