@@ -1,10 +1,6 @@
 {
   "httpPort": 3000,
   "repos": {
-    "node-subversion-hub": "https://github.com/jolira/node-subversion-hub",
-    "node-simpler-xmpp": "https://github.com/jolira/node-simpler-xmpp",
-    "site-manager": "https://github.com/jolira/site-manager",
-    "node-purple": "https://github.com/jolira/node-purple",
-    "jolokia-client": "https://github.com/jolira/jolokia-client"
+    "node-subversion-hub": "http://jolira-tools.googlecode.com/svn/"
   }
 }
